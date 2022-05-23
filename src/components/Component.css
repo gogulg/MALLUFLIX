@@ -1,0 +1,41 @@
+/* .header {
+    color: red;
+    font-family: 'Times New Roman', Times, serif;
+    display: flex;    
+    background: linear rgb(108, 91, 91), rgba(255, 122, 89,1), rgba(255, 122, 89,0);
+    justify-content: flex-start;
+    align-items: center;
+    margin: 0;
+}
+
+.signIn{
+    background-color: rgb(177, 35, 35);
+    font-size: medium;
+    color: white ;
+    padding: 1px 20px;
+    margin-top: 23px; 
+    display: flex;
+    cursor: pointer ;
+    justify-items: end;
+    font-family: 'Times New Roman', Times, serif; 
+}
+
+
+.navigationItem{
+    margin-left: 20px;
+}
+
+.navigationList{
+    list-style: none;
+    margin: 0;
+    display: flex;
+    margin-top: 20px;
+    text-transform: capitalize;
+    cursor: pointer ;
+}
+ */
+
+.NavBar{
+    color: rgb(255, 255, 255);
+    
+}

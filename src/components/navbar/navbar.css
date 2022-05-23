@@ -1,0 +1,50 @@
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 70px ;
+    padding: 0 ,25px;
+    align-items: center;
+
+
+
+};
+
+
+.scrolled{
+    background-color: black
+}
+
+.NavBar {
+    color: aliceblue;
+    font-size: 14px;
+    justify-content: space-between;
+    /* background: linear-gradient( to top, transparent 0% , rgba(0, 0,0, 0.3) 50%); */
+    background-color: black;
+    position: fixed;
+    width: 100%;
+    z-index : 999;
+}
+
+.logo{
+color: blue;
+font-weight: 100;
+font-size: 25px;
+font-family: 'Times New Roman', Times, serif;
+margin-right: 20px;
+margin-left : 10px;
+}
+
+.left{
+    display: flex;
+    align-items: center;
+
+}
+
+.span{
+    margin-right: 20px;
+}
+
+.icon{
+    margin-right: 20px;
+}

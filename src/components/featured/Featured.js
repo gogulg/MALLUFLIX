@@ -28,6 +28,7 @@ export default function Featured() {
                 <div className='overview'>
                     {trend[index] ? trend[index].overview : ''}
                 </div>
+            <div  className="fade_bottom"></div>
             </div>
         </div>
     )

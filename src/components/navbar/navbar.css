@@ -38,6 +38,8 @@ margin-left : 10px;
 .left{
     display: flex;
     align-items: center;
+     font-family: 'Times New Roman', Times, serif;
+     font-size: medium;
 
 }
 

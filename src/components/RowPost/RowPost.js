@@ -40,11 +40,12 @@ function RowPost(props) {
 
         axios.get(`/movie/${id}/images?api_key=fa3f14157f9ffda08da13922ef5bf0d4&language=en-US&include_image_language=ml`).then((response) => {
             // console.log(response.data.posters[0]);
-            console.log(response.data.posters.length);
+
             // setPosters(response.data.posters[i]) 
-            for (let i = 0; i <= response.data.posters.length; i++) {
+            for (var i = 0; i < 2; i++) {
                 setPosters(response.data.posters)
-                console.log("Images :", response.data.posters);
+                // console.log(response.data.posters.length);
+                console.log("Images :", response.data.posters[i]);
             }
 
 
@@ -60,9 +61,9 @@ function RowPost(props) {
                     <img onClick={() => handleClick(obj.id)} className={props.isSmall ? 'smallPoster' : 'poster'} src={`${imageURL + obj.backdrop_path}`} key={index}></img>
                 ))}
             </div>
-            {video && <YouTube videoId={video.key} opts={opts} />}
-            {  Posters &&  Posters.map((obj , index)=> (
-            <img className='relatedPosters' key={index} src={ imageURL + obj.file_path}  ></img>)) }
+            {/* {video && <YouTube videoId={video.key} opts={opts} />} */}
+            {Posters && Posters.map((obj, index) => (
+                <img className='relatedPosters' key={index} src={imageURL + obj.file_path}  ></img>))}
         </div>
     )
 }

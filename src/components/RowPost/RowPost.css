@@ -1,49 +1,44 @@
 .row {
-    margin-left: 20px;
-    color: rgb(255, 255, 255);
+  margin-left: 20px;
+  color: rgb(255, 255, 255);
 
-    font-weight: bold;
+  font-weight: bold;
 }
 
 .posters {
-    display: flex;
-    padding: 20px;
-    overflow-x: scroll;
-    overflow-y: hidden;
-    cursor: pointer;
+  display: flex;
+  padding: 20px;
+  overflow-x: scroll;
+  overflow-y: hidden;
+  cursor: pointer;
 }
 
 .poster {
-    max-height: 250px;
-    padding-right: 5px;
-
-
+  max-height: 250px;
+  padding-right: 5px;
 }
 
-
 .posters::-webkit-scrollbar {
-    display: none;
+  display: none;
 }
 
 .smallPoster {
-    max-height: 150px;
-    padding-right: 5px;
-
+  max-height: 150px;
+  padding-right: 5px;
 }
 
 .poster:hover {
-    transform: scale(1.08);
+  transform: scale(1.08);
 }
 
 .smallPoster:hover {
-    transform: scale(1.08);
+  transform: scale(1.08);
 }
 
 .relatedPosters {
-    display: inline;
-    width: 280px;
-    height: 400px;
-    overflow-x: scroll;
-    overflow-y: hidden;
-
+  display: inline;
+  width: 280px;
+  height: 400px;
+  overflow-x: scroll;
+  overflow-y: hidden;
 }

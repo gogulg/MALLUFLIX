@@ -57,7 +57,7 @@ function RowPost(props) {
       <h1>{props.title}</h1>
       <div className="posters">
         {state.map((obj, index) => (
-          <img
+          <img id="new"
             onClick={() => handleClick(obj.id)}
             className={props.isSmall ? "smallPoster" : "poster"}
             src={`${imageURL + obj.backdrop_path}`}
@@ -65,6 +65,7 @@ function RowPost(props) {
           ></img>
         ))}
       </div>
+     <div className="middle"><h1>HELLLO MY DEAR WRING NUMBER</h1></div>
       {/* {video && <YouTube videoId={video.key} opts={opts} />} */}
       {Posters &&
         Posters.map((obj, index) => (

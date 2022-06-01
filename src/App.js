@@ -47,7 +47,7 @@
 import React from 'react'
 import Featured from './components/featured/Featured'
 
-import Home from './home/Home'
+import Home from './Pages/home/Home'
 
 export default function App() {
   return (

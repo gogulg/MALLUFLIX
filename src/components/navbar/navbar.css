@@ -1,52 +1,53 @@
 .container {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    height: 70px ;
-    padding: 0 ,25px;
-    align-items: center;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 70px;
+  padding: 0, 25px;
+  align-items: center;
+}
 
-
-
-};
-
-
-.scrolled{
-    background-color: black
+.scrolled {
+  background-color: black;
 }
 
 .NavBar {
-    color: aliceblue;
-    font-size: 14px;
-    justify-content: space-between;
-    /* background: linear-gradient( to top, transparent 0% , rgba(0, 0,0, 0.3) 50%); */
-    background-color: black;
-    position: fixed;
-    width: 100%;
-    z-index : 999;
+  color: aliceblue;
+  font-size: 14px;
+  justify-content: space-between;
+  /* background: linear-gradient( to top, transparent 0% , rgba(0, 0,0, 0.3) 50%); */
+  background-color: rgb(0, 0, 0);
+  position: fixed;
+  width: 100%;
+  z-index: 999;
+  cursor: pointer;
+  font-weight: bold;
+  
+  font-family: "Roboto", "HelveticaNeue-Light", sans-serif;
 }
 
-.logo{
-color: blue;
-font-weight: 100;
-font-size: 25px;
-font-family: 'Times New Roman', Times, serif;
-margin-right: 20px;
-margin-left : 10px;
+.logo {
+  color: blue;
+  font-weight: 100;
+  font-size: 25px;
+  font-family: "Times New Roman", Times, serif;
+  margin-right: 20px;
+  margin-left: 10px;
+  background-color: rgb(0, 202, 202);
+  padding: 10px;
 }
 
-.left{
-    display: flex;
-    align-items: center;
-     font-family: 'Times New Roman', Times, serif;
-     font-size: medium;
+.left {
+  display: flex;
+  align-items: center;
 
+  font-size: medium;
 }
 
-.span{
-    margin-right: 20px;
+.span {
+  margin-right: 20px;
 }
 
-.icon{
-    margin-right: 20px;
+.icon {
+  margin-right: 20px;
 }

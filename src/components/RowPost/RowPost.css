@@ -5,6 +5,14 @@
   font-weight: bold;
 }
 
+#new{
+
+    background-color: aliceblue;
+
+}
+
+  
+
 .posters {
   display: flex;
   padding: 20px;
@@ -41,4 +49,14 @@
   height: 400px;
   overflow-x: scroll;
   overflow-y: hidden;
+}
+
+.middle{
+    background-color: aliceblue;
+    color: black;
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 90%;
+    left: 10px;
 }
